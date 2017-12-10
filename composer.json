@@ -1,0 +1,20 @@
+{
+    "name": "aratrohcaz/whos_home",
+    "license": "MIT",
+    "description": "A collection of scripts and packages to detect when devices are on the network",
+    "authors": [
+        {
+            "name": "aratrohcaz",
+            "email": "thataddress@protonmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+      "psr-0": {
+          "Net_Nmap": "./"
+      }
+    }
+}
