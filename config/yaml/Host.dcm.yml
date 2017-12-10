@@ -1,0 +1,16 @@
+Host:
+  type: entity
+  table: hosts
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    mac_address:
+      type: string
+      length: 12 # or 15 if you want colons in the name
+      index: true
+    name:
+      type: string
+      length: 128

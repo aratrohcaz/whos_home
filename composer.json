@@ -1,6 +1,6 @@
 {
     "name": "aratrohcaz/whos_home",
-    "license": "MIT",
+    "license": "GNU GPLv3",
     "description": "A collection of scripts and packages to detect when devices are on the network",
     "authors": [
         {
@@ -15,8 +15,11 @@
         "symfony/yaml": "^3.4"
     },
     "autoload": {
+      "psr-4": {
+          "PhpNmap\\": "src/PhpNmap/"
+      },
       "psr-0": {
-          "Net_Nmap": "./"
+        "": "lib/"
       }
     }
 }
