@@ -13,6 +13,7 @@ $yml_parser = new Parser();
 
 $paths = [
   __DIR__ . "/config/yaml",
+  __DIR__ . "/lib",
 ];
 $config = Setup::createYAMLMetadataConfiguration($paths, $dev_mode);
 $db_params = $yml_parser->parse(file_get_contents(__DIR__ . "/config/database.yml"));
