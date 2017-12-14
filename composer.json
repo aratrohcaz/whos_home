@@ -11,7 +11,6 @@
     "minimum-stability": "stable",
     "require": {
         "monolog/monolog": "^1.23",
-        "doctrine/orm": "^2.5",
         "symfony/yaml": "^3.4"
     },
     "autoload": {
