@@ -1,0 +1,7 @@
+directories:
+  yml_dir: 'config/yaml'
+  model_dir: 'lib'
+
+model_properties:
+  variable_perm: 'protected'
+  fluent_setter: true
