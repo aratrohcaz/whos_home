@@ -1,8 +1,0 @@
-# doctrine:
-#   dba_1:
-driver: "pdo_pgsql"
-host: "localhost"
-port: 5432
-database: "whos_home"
-user: "your_dba"
-password: "your_dbas_password"
