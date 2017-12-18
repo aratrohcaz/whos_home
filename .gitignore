@@ -22,6 +22,7 @@ tools/*
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
+/tmp/*.sqlite
 
 /logs/*
 !/logs/empty
