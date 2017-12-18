@@ -1,5 +1,8 @@
 /config/app.override.php
 
+## Should we be committing lock files?
+config/Migrations/*.lock
+
 # Created by https://www.gitignore.io/api/cake,cakephp
 
 ### Cake ###
