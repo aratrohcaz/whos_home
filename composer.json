@@ -12,13 +12,5 @@
     "require": {
         "monolog/monolog": "^1.23",
         "symfony/yaml": "^3.4"
-    },
-    "autoload": {
-      "psr-4": {
-          "PhpNmap\\": "src/PhpNmap/"
-      },
-      "psr-0": {
-        "": "lib/"
-      }
     }
 }
