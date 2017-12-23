@@ -1,6 +1,6 @@
 {
     "name": "aratrohcaz/whos_home",
-    "license": "GNU GPLv3",
+    "license": "GPL-3.0",
     "description": "A collection of scripts and packages to detect when devices are on the network",
     "authors": [
         {
